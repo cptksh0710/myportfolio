@@ -1,0 +1,179 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: SANG HOON KIM
+    tagline: Junior Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: cptksh0710@gmail.com
+    phone: +82)010-9962-3135
+    citizenship: 없음
+    website: 아직 없음 #do not add http://
+    linkedin: 없음
+    xing: 없음
+    github: cptksh0710
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      - idiom: 한국어
+        level: Native
+
+      - idiom: English
+        level: Beginner
+
+    interests:
+      - item: 영화 보기
+        link:
+
+      - item: 인터넷 방송 보기(트위치, 유튜브)
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: 간략한 소개(Introduce)
+    summary: |
+         &nbsp;&nbsp;&nbsp;과거 소프트웨어 관련 전공을 하였지만 부모님 사업 관련
+         집안 사정으로 인해서 2016년 학교를 졸업 후 2021년 6월까지
+         사업관련 일을 도와드렸습니다. <br>
+         &nbsp;&nbsp;&nbsp;최근 코로나로 인해서 인력감축이 필요했고 다시 일자리를
+         알아보게 되었습니다. 대학 전공 관련하여 일자리를 알아보다가
+         초급 AI 개발자 국비교육과정을 알게 되었고 2021년 11월 중순을
+         시작으로 22년 3월 현재 4개월차 수강 진행중입니다.
+         (4월 말 수료 예정)
+education:
+    - degree: 학사 졸업(소프트웨어학과)
+      university: 단국대학교 죽전캠퍼스
+      time: 2013.03 - 2016.02
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: 자퇴
+      university: 한신대학교
+      time: 2007.03 - 2013.02
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: 개발자 (예정)
+      time: 2022 - 현재
+      company: Startup Hubs, San Francisco(예시)
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.(예시)
+          - Bullet point
+          - Bullet point
+    
+    - role : 초급 AI 개발자 실무역량 강화 국비교육과정
+      time: 2021.11 - 2022.04
+      company: 미림미디어랩 운영(과학기술정보통신부 주최)
+      details: |
+        Machine Learning / Deep Learning 교육과정
+          - Python
+          - Numpy, Pandas, Matplotlib, Tensorflow
+          - 멘토링
+        
+projects:
+    title: Projects
+    intro: >
+      완료했거나 진행중인 프로젝트 소개
+    assignments:
+      - title: Hiseoul
+        link: https://github.com/cptksh0710/hiseoul_ml_project
+        tagline: "CCTV 화면 내에 이동하는 사람들의 수를 ML을 통해 count하고 해당 정보를 제공, 
+                  분석하는 웹사이트, DB 구축"
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Java
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Javascript & React
+        level: 50%
+
+      - name: Postgres
+        level: 70%
+
+      - name: Apache Tomcat
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
